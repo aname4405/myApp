@@ -38,7 +38,6 @@
 }
 
 .center {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   margin-top: 50px;
   display: block;
   margin-left: auto;
