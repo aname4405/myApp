@@ -5,12 +5,14 @@ import Home from './Home';
 import About from './About';
 import Live from './Live';
 import Subscribe from './Subscribe';
+//import RainbowText from 'react-rainbow-text';
 
 function App() {
   return (
    <>
+    <h1 style={{textAlign: 'center', fontFamily: 'Arial', fontWeight: 'bold', fontSize: '50px'}}>The Band</h1>
     <Nav/>
-      <div>
+    <div>
     <Routes>        
       <Route path="/"  element={<Home/>} />
       <Route path="/About"  element={<About />} />
@@ -18,8 +20,7 @@ function App() {
       <Route path="/Subscribe"  element={<Subscribe/>} />
     </Routes>
     </div>
-    </>
-   
+    </>   
   );
 }
 
