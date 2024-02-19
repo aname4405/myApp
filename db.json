@@ -1,0 +1,15 @@
+{
+  "subscribers": [
+    {
+      "name": "name",
+      "email": "email",
+      "id": "5c7a"
+    },
+    {
+      "id": "325e",
+      "firstname": "Dave",
+      "surname": "Grohl",
+      "email": "Dave@rock.com"
+    }
+  ]
+}
