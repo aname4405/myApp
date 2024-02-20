@@ -14,13 +14,21 @@ a:hover{
 }
 
 .Home{
-  width: 33%;
+  width: 20%;
 }
 
 .About{
-width: 33%;
+width: 20%;
 }
 
 .Live{
-width: 33%;
+width: 20%;
 }
+
+.Merch{
+  width: 20%;
+  }
+
+.Subscribe{
+  width: 20%;
+  }

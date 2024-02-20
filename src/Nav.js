@@ -13,6 +13,9 @@ const Nav=()=>{
             <div className='Live'>
                 <Link to="/Live">Live</Link>
             </div>
+            <div className='Merch'>
+                <Link to="/Merch">Merch</Link>
+            </div>
             <div className='Subscribe'>
                 <Link to="/Subscribe">Subscribe</Link>
             </div>
