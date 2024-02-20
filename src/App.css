@@ -128,4 +128,12 @@
   font-size: 19px;
 }
 
+.cart > img {
+  height: 30px;
+  margin-right: 30px;
+}
 
+.cart > img:hover {
+  cursor: pointer;
+  background-color: #CBBCE2;
+}

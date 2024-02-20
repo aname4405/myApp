@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default () => (
-    <>
+    <div className='header'>
         <h1>Events</h1>
         <ol>
             <li>The Big Gig</li>
@@ -10,6 +10,6 @@ export default () => (
             <li>The Pub</li>
             <li>Mike's wedding</li>
         </ol>
-    </>
+    </div>
     
 );
