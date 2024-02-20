@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import profile from './profile.png';
+import email from './email.png';
+
 const Subscribe = () => {
     const [formData, setForm] = useState({});
 
@@ -25,22 +28,22 @@ const Subscribe = () => {
     };
 
     return (
-        <div className='container'>
+    <div className='container'>
         <div className='header'>
             <div className='title'>Subscribe</div>
             <div className='underline'></div>
         </div>
         <div className='inputs'>
             <div className='input'>
-                {/* <img src={profile} alt='silhouette icon image of a person' /> */}
+                <img src={profile} alt='silhouette icon image of a person' />
                 <input type="text" id="firstName" name="firstName" placeholder="First Name" onInput={e=>setForm({...formData, firstname: e.target.value})} />
             </div>
             <div className='input'>
-                {/* <img src={profile} alt='silhouette icon image of a person' /> */}
+                <img src={profile} alt='silhouette icon image of a person' />
                 <input type="text" id="surname" name="surname" placeholder="Surname" onInput={e=>setForm({...formData, surname: e.target.value})} />
             </div>
             <div className='input'>
-                {/* <img src={email} alt='silhouette icon image of an email evelope' /> */}
+                <img src={email} alt='silhouette icon image of an email evelope' />
                 <input type="email" id="email" name="email" placeholder="Email Address" onInput={e=>setForm({...formData, email: e.target.value})} />
             </div>
         </div>
