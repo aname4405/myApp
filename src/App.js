@@ -1,11 +1,11 @@
 import './App.css';
 import { Route,Routes } from 'react-router-dom';
-import Nav from './Nav';
-import Home from './Home';
-import About from './About';
-import Live from './Live';
-import Merch from './Merch';
-import Subscribe from './Subscribe';
+import Nav from './components/Nav';
+import Home from './pages/home/Home';
+import About from './pages/about/about';
+import Events from './pages/events/events';
+import Merch from './pages/merch/merch';
+import Subscribe from './pages/subscribe/Subscribe';
 //import RainbowText from 'react-rainbow-text';
 
 function App() {
@@ -15,11 +15,11 @@ function App() {
     <Nav/>
     <div>
     <Routes>        
-      <Route path="/"  element={<Home/>} />
-      <Route path="/About"  element={<About />} />
-      <Route path="/Live"  element={<Live/>} />
-      <Route path="/Merch"  element={<Merch/>} />
-      <Route path="/Subscribe"  element={<Subscribe/>} />
+      <Route path="/" element={<Home/>} />
+      <Route path="/about" element={<About />} />
+      <Route path="/events" element={<Events/>} />
+      <Route path="/merch" element={<Merch/>} />
+      <Route path="/subscribe" element={<Subscribe/>} />
     </Routes>
     </div>
     </>   

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import profile from './profile.png';
-import email from './email.png';
+import profile from '../../assets/icons/profile.png';
+import email from '../../assets/icons/email.png';
 
 const Subscribe = () => {
     const [formData, setForm] = useState({});

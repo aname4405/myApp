@@ -8,16 +8,16 @@ const Nav=()=>{
                 <Link to="/">Home</Link>
             </div>
             <div className='About'>
-                <Link to="/About">About</Link>
+                <Link to="/about">About</Link>
             </div>
-            <div className='Live'>
-                <Link to="/Live">Live</Link>
+            <div className='Events'>
+                <Link to="/events">Events</Link>
             </div>
             <div className='Merch'>
-                <Link to="/Merch">Merch</Link>
+                <Link to="/merch">Merch</Link>
             </div>
             <div className='Subscribe'>
-                <Link to="/Subscribe">Subscribe</Link>
+                <Link to="/subscribe">Subscribe</Link>
             </div>
         </div>
     )
