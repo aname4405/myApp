@@ -1,15 +1,51 @@
 {
   "subscribers": [
     {
-      "name": "name",
-      "email": "email",
-      "id": "5c7a"
-    },
-    {
       "id": "325e",
       "firstname": "Dave",
       "surname": "Grohl",
       "email": "Dave@rock.com"
     }
+  ], 
+
+  "products": [
+    {
+      "id": 1,
+      "productName": "hoodie",
+      "price": "60.0",
+      "productImage":"/src/assets/products/product1.png"
+    },
+    {
+      "id": 2,
+      "productName": "bag",
+      "price": "22.0",
+      "productImage":"/src/assets/products/product2.png"
+    },
+    {
+      "id": 3,
+      "productName": "hat",
+      "price": "32.0",
+      "productImage":"/src/assets/products/product3.png"
+    },
+    {
+      "id": 4,
+      "productName": "cup",
+      "price": "18.0",
+      "productImage":"/src/assets/products/product4.png"
+    },
+    {
+      "id": 5,
+      "productName": "cd",
+      "price": "30.0",
+      "productImage":"/src/assets/products/product5.png"
+    },
+    {
+      "id": 6,
+      "productName": "poster",
+      "price": "15.0",
+      "productImage":"/src/assets/products/product6.png"
+    }
   ]
+
+
 }
