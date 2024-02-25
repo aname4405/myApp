@@ -55,3 +55,7 @@
     font-size: 15px;
   }
 
+  .checkoutlink:hover {
+    color: black;
+  }
+
