@@ -2,11 +2,14 @@ import React, { useContext } from 'react';
 import { PRODUCTS } from '../../products';
 import { MerchContext } from '../../context/merchContextProvider';
 import { CartItem } from './cartItem';
+import { Link } from 'react-router-dom';
 
 import "./cart.css";
 
 export default () => {
-    const {cartItems} = useContext(MerchContext);
+    const {cartItems, getTotalCartAmount} = useContext(MerchContext);
+    const totalAmount = getTotalCartAmount();
+
     return (
     <div className="cartItems">
         <div>
@@ -18,6 +21,11 @@ export default () => {
                     return <CartItem data={product} />
                 }
             })}
+        </div>
+        <div className='checkout'>
+            <p>Subtotal: £{totalAmount}</p>
+            <button><Link to='/merch' className='checkoutlink'>Continue Shopping</Link></button>
+            <button>Checkout</button>
         </div>
     </div>
     
