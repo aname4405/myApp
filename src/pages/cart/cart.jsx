@@ -22,11 +22,13 @@ export default () => {
                 }
             })}
         </div>
+        {totalAmount > 0 ? 
         <div className='checkout'>
             <p>Subtotal: £{totalAmount}</p>
             <button><Link to='/merch' className='checkoutlink'>Continue Shopping</Link></button>
             <button>Checkout</button>
         </div>
+: <h1>Your Cart is Empty</h1>}
     </div>
     
 )};
