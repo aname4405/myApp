@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { PRODUCTS } from '../../products';
+import { MerchContext } from '../../context/merchContextProvider';
+import { CartItem } from './cartItem';
 
-export default () => (
-    <>
-        <h1>Cart</h1>
-    </>
+import "./cart.css";
+
+export default () => {
+    const {cartItems} = useContext(MerchContext);
+    return (
+    <div className="cartItems">
+        <div>
+            <h1>Your Cart Items</h1>
+        </div>
+        <div className="cartItems">
+            {PRODUCTS.map((product) => {
+                if (cartItems[product.id] !== 0) {
+                    return <CartItem data={product} />
+                }
+            })}
+        </div>
+    </div>
     
-);
+)};
