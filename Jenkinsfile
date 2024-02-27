@@ -12,7 +12,7 @@ pipeline {
                 //     'npm run server': {
                 //         bat 'npx json-server --watch db.json --port 8000'
                 //     },
-                    'npm start': {
+                    // 'npm start': {
                         bat 'npm start'
                     }
                 // )                    
